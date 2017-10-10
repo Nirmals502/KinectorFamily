@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView31"
+        android:layout_alignStart="@+id/textView31"
+        android:layout_below="@+id/Cellnew"
+        android:layout_marginTop="20dp"
+        android:text="Kids Birthday eCards"
+        android:textColor="#1d1c1c"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/Cellneww"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView32"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageView177"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/imageView166"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/imageView166"
+            android:layout_toRightOf="@+id/imageView166"
+            app:srcCompat="@drawable/hpy_brththree" />
+
+        <ImageView
+            android:id="@+id/imageView166"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/imageView14"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/imageView14"
+            android:layout_toRightOf="@+id/imageView14"
+            app:srcCompat="@drawable/hapybrtdaytwo" />
+
+        <ImageView
+            android:id="@+id/imageView155"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/imageView177"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/imageView177"
+            android:layout_toRightOf="@+id/imageView177"
+            app:srcCompat="@drawable/hppybrthfour" />
+
+        <ImageView
+            android:id="@+id/imageView144"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/imageView155"
+            android:layout_toRightOf="@+id/imageView155"
+            app:srcCompat="@drawable/hapbrthone" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Rlv_header"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:text="Happy Birthday eCards for everyone"
+        android:textColor="#1d1c1c"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/Rlv_header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#4AB64F">
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Cards"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Cellnew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView31"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/imageView16"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/imageView16"
+            android:layout_toRightOf="@+id/imageView16"
+            app:srcCompat="@drawable/hpy_brththree" />
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/imageView14"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/imageView14"
+            android:layout_toRightOf="@+id/imageView14"
+            app:srcCompat="@drawable/hapybrtdaytwo" />
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/imageView17"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@+id/imageView17"
+            android:layout_toRightOf="@+id/imageView17"
+            app:srcCompat="@drawable/hppybrthfour" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/hapbrthone" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

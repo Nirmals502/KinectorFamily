@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Kinector Family</string>
+    <string name="title_activity_home_activity">Home_activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_landing_screen">Landing_screen</string>
+</resources>

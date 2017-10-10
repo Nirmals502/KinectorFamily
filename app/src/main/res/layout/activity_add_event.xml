@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+    <RelativeLayout
+        android:id="@+id/Rlv_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#4AB64F">
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView17"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="28dp"
+            android:text="Add New Event"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/imageView19"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_square"
+            android:ems="10"
+            android:hint="Event Name Here"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Rlv_header"
+        android:layout_marginBottom="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignEnd="@+id/rlv_container"
+                android:layout_alignLeft="@+id/rlv_container"
+                android:layout_alignRight="@+id/rlv_container"
+                android:layout_alignStart="@+id/rlv_container"
+                android:layout_below="@+id/rlv_container"
+                android:layout_marginTop="39dp"
+                android:background="#4AB64F"
+                android:text="Save Event"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+
+                android:layout_height="150dp"
+                android:layout_alignEnd="@+id/imageView23"
+                android:layout_alignLeft="@+id/imageView23"
+                android:layout_alignRight="@+id/imageView23"
+                android:layout_alignStart="@+id/imageView23"
+                android:layout_below="@+id/imageView23"
+                android:layout_marginTop="17dp"
+                android:background="@android:drawable/editbox_background_normal"
+
+                android:ems="10"
+                android:hint="Description here"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="?attr/colorAccent" />
+
+            <RelativeLayout
+                android:id="@+id/Select_time"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/round_icon">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@+id/relativeLayout3"
+                    android:layout_toRightOf="@+id/relativeLayout3">
+
+                    <TextView
+                        android:id="@+id/textView37"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="Select Day"
+                        android:textColor="?android:attr/colorForegroundInverse" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignEnd="@+id/divider"
+                    android:layout_alignRight="@+id/divider">
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="Select Month"
+                        android:textColor="?android:attr/colorForegroundInverse" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/divider"
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_centerHorizontal="true"
+                    android:background="#1a1a1a">
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/Select_timee"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignEnd="@+id/Select_time"
+                android:layout_alignLeft="@+id/Select_time"
+                android:layout_alignRight="@+id/Select_time"
+                android:layout_alignStart="@+id/Select_time"
+                android:layout_below="@+id/Select_time"
+                android:layout_marginTop="11dp"
+                android:background="@drawable/round_icon">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@+id/dividerr"
+                    android:layout_toRightOf="@+id/dividerr">
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="4 Pm"
+                        android:textColor="?android:attr/colorForegroundInverse" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/dividerr"
+                    android:layout_toStartOf="@+id/dividerr">
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="1 Pm"
+                        android:textColor="?android:attr/colorForegroundInverse" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/dividerr"
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+
+                    android:layout_centerHorizontal="true"
+                    android:background="#1a1a1a">
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_alignEnd="@+id/Select_timee"
+                android:layout_alignLeft="@+id/Select_timee"
+                android:layout_alignRight="@+id/Select_timee"
+                android:layout_alignStart="@+id/Select_timee"
+                android:layout_below="@+id/Select_timee"
+                android:layout_marginTop="17dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/mapimage" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+
+                android:layout_height="50dp"
+                android:layout_alignBottom="@+id/imageView23"
+                android:layout_alignEnd="@+id/imageView23"
+                android:layout_alignLeft="@+id/imageView23"
+                android:layout_alignRight="@+id/imageView23"
+                android:layout_alignStart="@+id/imageView23"
+                android:background="@android:drawable/editbox_background_normal"
+                android:drawableLeft="@android:drawable/ic_menu_search"
+                android:ems="10"
+                android:hint="Search"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="?attr/colorAccent" />
+
+            <RelativeLayout
+                android:id="@+id/rlv_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/editText5"
+                android:layout_alignLeft="@+id/editText5"
+                android:layout_alignRight="@+id/editText5"
+                android:layout_alignStart="@+id/editText5"
+                android:layout_below="@+id/editText5"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/textView39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="Invites"
+                    android:textColor="#4AB64F"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/round_icon"
+                    android:text="Invite contacts"
+                    android:textColor="@color/colorAccent" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
